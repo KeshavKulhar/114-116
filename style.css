@@ -1,0 +1,46 @@
+  .heading
+  {
+    font-size: 25px;
+    background-color: darkorange;
+    border: 10px solid green; 
+    width: 80%;
+    animation-name: example1;
+	  animation-duration: 1s;
+	  animation-iteration-count: infinite;
+  }
+
+  @keyframes example1 {
+
+    from {border-color: blue;}
+    to {border-color: crimson;}
+    
+   
+  }
+.btn-success:hover
+{
+	background-color: red;
+}
+  canvas {
+	  animation-name: example;
+	  animation-duration: 3s;
+	  animation-iteration-count: infinite;
+  }
+
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px yellow;}
+  
+ 
+}
+.copy_right_footer{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  color: brown;
+  background-color: cyan;
+  font-size: 20px;
+}
